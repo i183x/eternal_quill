@@ -38,11 +38,57 @@
 }
 
 .SignupForm_Container div input{
-    height: 2.5vh;
-    border-radius: 10px;
+    height: 6vh;
+    width: 22vw;
+    border-radius: 7px;
+    background-color: #393E46;
+    border: 0px solid black;
+    color: white;
+    opacity: 0.8;
+    padding-left: 5%;
 }
 
-.SignupForm_Date{
-    width: 115%;
-    border-radius: 10px;
+/* .SignupForm_Date{
+    height: 6vh;
+    width: 22vw;
+    border-radius: 7px;
+    background-color: #393E46;
+    border: 0px solid black;
+    color: white;
+} */
+
+#SignupForm_Text{
+    font-size: 26px;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+
+::selection{
+    color:aqua;
+}
+
+.SignupForm_Button{
+    height:6vh;
+    width:10vw;
+    border-radius: 10px;
+    background-color: #00ADB5;
+    box-shadow: 1px 1px 10px #03ccd6;
+    border: 0px;
+    font-size: 15.5px;
+}
+
+/* Responsive width */
+/* 
+#SignupForm_AcceptTerms{
+    height: 10vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+} */
